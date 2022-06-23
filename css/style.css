@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    margin-top: 120px;
+}
+
+.header {
+    font-size: 75px;
+    color: bisque;
+}
+
+.bg {
+    background: url("../gif/back.gif") no-repeat 50% fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(7px);
+}
+
+.about-me {
+    font-size: 20px;
+    font-weight: 500;
+    color: bisque;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.about-me .row {
+    margin: 0;
+}
+
+.icon {
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.footer {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.footer a {
+    color: bisque;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer a:hover {
+    color: #60554a;
+}
