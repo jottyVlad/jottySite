@@ -1,6 +1,7 @@
 body {
     background-color: black;
     font-family: 'Rubik', sans-serif;
+    color: bisque;
 }
 
 .container {
@@ -33,12 +34,80 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 10px;
     margin-top: 25px;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .about-me .row {
     margin: 0;
     text-align: center;
+}
+
+.link-section {
+    margin-top: 45px;
+}
+
+.link {
+    text-decoration: none;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.link {
+    position: relative;
+    background: rgb(131, 125, 125);
+    text-decoration: none;
+    font-size: 25px;
+    color: bisque;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.link:hover {
+    letter-spacing: 0.25em;
+    color: #b57edc;
+    background: #b57edc;
+    box-shadow: 0 0 35px #b57edc;
+}
+
+.link::before {
+    content: '';
+    position: absolute;
+    inset: 3px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+}
+
+.link span {
+    position: relative;
+    z-index: 1;
+}
+
+.projects-list-section {
+    margin-top: 25px;
+}
+
+.projects-list {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.project {
+    padding: 20px 30px;
+}
+
+.project-name {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.project-description {
+    border-top: bisque dashed 2px;
+    border-bottom: bisque dashed 2px;
+    padding: 15px;
 }
 
 .icon {
@@ -52,12 +121,13 @@ body {
     margin-top: 25px;
 }
 
-.footer a {
+.footer a i {
     color: bisque;
     text-decoration: none;
     transition: 0.5s;
 }
 
-.footer a:hover {
-    color: #60554a;
+.footer a:hover i {
+    color: #b57edc;
+    text-shadow: 0 0 35px #b57edc;
 }
