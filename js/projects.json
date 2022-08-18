@@ -1,6 +1,18 @@
 [
   {
     "name": "EnjAlice",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti doloribus eius expedita labore quaerat quibusdam ratione velit! Delectus est, sit? Aut dolorum explicabo iste modi."
+    "description": "Асинхронный фреймворк для написания Навыков для Яндекс.Алисы"
+  },
+  {
+    "name": "Polya | Chat Manager",
+    "description": "Чат-менеджер для мессенджера Telegram. In development"
+  },
+  {
+    "name": "morgenpost (contributing)",
+    "description": "Утренний пост с важной информацией (и не очень) прямо в мессенджер"
+  },
+  {
+    "name": "MDB",
+    "description": "Игровой бот для социальной сети ВКонтакте"
   }
 ]
